@@ -1,0 +1,18 @@
+<div>
+    <a class='navbar-brand' [routerLink]="['/home']">health_analytics</a>
+    <ul class='nav navbar-nav'>
+        <li [routerLinkActive]="['link-active']">
+            <a [routerLink]="['/home']">
+                <span class='glyphicon glyphicon-home'></span> Home
+            </a>
+        </li>
+        <li [routerLinkActive]="['link-active']">
+            <a [routerLink]="['/utilization']">Utilization</a>
+        </li>
+        <li [routerLinkActive]="['link-active']">
+            <a [routerLink]="['/fetch-data']">
+                <span class='glyphicon glyphicon-th-list'></span> Fetch data
+            </a>
+        </li>
+    </ul>
+</div>
